@@ -1,3 +1,4 @@
+1  
 ```mermaid
 ---
 title: Node
@@ -6,6 +7,7 @@ flowchart LR
     id
 ```
 
+2  
 ```mermaid
 ---
 title: Node with text
@@ -14,11 +16,13 @@ flowchart LR
     id1[This is the text in the box]
 ```
 
+3  
 ```mermaid
 flowchart LR
     id["This ❤ Unicode"]
 ```
 
+4  
 ```mermaid
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart LR
@@ -29,151 +33,181 @@ flowchart LR
     markdown --> newLines
 ```
 
+5  
 ```mermaid
 flowchart TD
     Start --> Stop
 ```
 
+6  
 ```mermaid
 flowchart LR
     Start --> Stop
 ```
 
+7  
 ```mermaid
 flowchart LR
     id1(This is the text in the box)
 ```
 
+8  
 ```mermaid
 flowchart LR
     id1([This is the text in the box])
 ```
 
+9  
 ```mermaid
 flowchart LR
     id1[[This is the text in the box]]
 ```
 
+10  
 ```mermaid
 flowchart LR
     id1[(Database)]
 ```
 
+11  
 ```mermaid
 flowchart LR
     id1((This is the text in the circle))
 ```
 
+12  
 ```mermaid
 flowchart LR
     id1>This is the text in the box]
 ```
 
+13  
 ```mermaid
 flowchart LR
     id1{This is the text in the box}
 ```
 
+14  
 ```mermaid
 flowchart LR
     id1{{This is the text in the box}}
 ```
 
+15  
 ```mermaid
 flowchart TD
     id1[/This is the text in the box/]
 ```
 
+16  
 ```mermaid
 flowchart TD
     id1[\This is the text in the box\]
 ```
 
+17  
 ```mermaid
 flowchart TD
     A[/Christmas\]
 ```
 
+18  
 ```mermaid
 flowchart TD
     B[\Go shopping/]
 ```
 
+19  
 ```mermaid
 flowchart TD
     id1(((This is the text in the circle)))
 ```
 
+20  
 ```mermaid
 flowchart LR
     A-->B
 ```
 
+21  
 ```mermaid
 flowchart LR
     A --- B
 ```
 
+22  
 ```mermaid
 flowchart LR
     A-- This is the text! ---B
 ```
 
+23  
 ```mermaid
 flowchart LR
     A---|This is the text|B
 ```
 
+24  
 ```mermaid
 flowchart LR
     A-->|text|B
 ```
 
+25  
 ```mermaid
 flowchart LR
     A-- text -->B
 ```
 
+26  
 ```mermaid
 flowchart LR
    A-.->B;
 ```
 
+27  
 ```mermaid
 flowchart LR
    A-. text .-> B
 ```
 
+28  
 ```mermaid
 flowchart LR
    A ==> B
 ```
 
+29  
 ```mermaid
 flowchart LR
    A == text ==> B
 ```
 
+30  
 ```mermaid
 flowchart LR
     A ~~~ B
 ```
 
+31  
 ```mermaid
 flowchart LR
    A -- text --> B -- text2 --> C
 ```
 
+32  
 ```mermaid
 flowchart LR
    a --> b & c--> d
 ```
 
+33  
 ```mermaid
 flowchart TB
     A & B--> C & D
 ```
 
+34  
 ```mermaid
 flowchart TB
     A --> C
@@ -182,12 +216,14 @@ flowchart TB
     B --> D
 ```
 
+35  
 ```mermaid
 flowchart LR
     A --o B
     B --x C
 ```
 
+36  
 ```mermaid
 flowchart LR
     A o--o B
@@ -195,6 +231,7 @@ flowchart LR
     C x--x D
 ```
 
+37  
 ```mermaid
 flowchart TD
     A[Start] --> B{Is it?}
@@ -204,6 +241,7 @@ flowchart TD
     B ---->|No| E[End]
 ```
 
+38  
 ```mermaid
 flowchart TD
     A[Start] --> B{Is it?}
@@ -223,16 +261,21 @@ Thick with arrow	==>	===>	====>
 Dotted	-.-	-..-	-...-
 Dotted with arrow	-.->	-..->	-...->
 
+
+39  
 ```mermaid
 flowchart LR
     id1["This is the (text) in the box"]
 ```
 
+
+40  
 ```mermaid
 flowchart LR
         A["A double quote:#quot;"] --> B["A dec char:#9829;"]
 ```
 
+41  
 ```mermaid
 flowchart TB
     c1-->a2
@@ -247,6 +290,7 @@ flowchart TB
     end
 ```
 
+42  
 ```mermaid
 flowchart TB
     c1-->a2
@@ -255,6 +299,7 @@ flowchart TB
     end
 ```
 
+43  
 ```mermaid
 flowchart TB
     c1-->a2
@@ -272,6 +317,7 @@ flowchart TB
     two --> c2
 ```
 
+44  
 ```mermaid
 flowchart LR
   subgraph TOP
@@ -289,6 +335,7 @@ flowchart LR
   B1 --> B2
 ```
 
+45  
 ```mermaid
 flowchart LR
     subgraph subgraph1
@@ -308,6 +355,7 @@ flowchart LR
     outside ---> top2
 ```
 
+46  
 ```mermaid
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart LR
@@ -328,6 +376,9 @@ For italics, use single asterisks (*) before and after the text.
 With traditional strings, you needed to add <br> tags for text to wrap in nodes. However, markdown strings automatically wrap text when it becomes too long and allows you to start a new line by simply using a newline character instead of a <br> tag.
 This feature is applicable to node labels, edge labels, and subgraph labels.
 
+
+
+47  
 ```mermaid
 flowchart LR
     A-->B
@@ -339,6 +390,7 @@ flowchart LR
     click D href "https://www.github.com" "This is a tooltip for a link"
 ```
 
+48  
 ```mermaid
 flowchart LR
     A-->B
@@ -351,12 +403,14 @@ flowchart LR
     click D href "https://www.github.com" "Open this in a new tab" _blank
 ```
 
+49  
 ```mermaid
 flowchart LR
 %% this is a comment A -- text --> B{node}
    A -- text --> B -- text2 --> C
 ```
 
+50  
 ```mermaid
 flowchart LR
     id1(Start)-->id2(Stop)
@@ -364,12 +418,14 @@ flowchart LR
     style id2 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 ```
 
+51  
 ```mermaid
 flowchart LR
     A:::someclass --> B
     classDef someclass fill:#f96
 ```
 
+52  
 ```mermaid
 flowchart LR
     A:::foo & B:::bar --> C:::foobar
@@ -378,6 +434,7 @@ flowchart LR
     classDef foobar stroke:#00f
 ```
 
+53  
 ```mermaid
 flowchart TD
     B["fa:fa-twitter for peace"]
@@ -386,6 +443,7 @@ flowchart TD
     B-->E(A fa:fa-camera-retro perhaps?)
 ```
 
+54  
 ```mermaid
 flowchart LR
     A[Hard edge] -->|Link text| B(Round edge)

@@ -2,7 +2,7 @@
 ```mermaid
 flowchart TD
     J[ALEA] --> A[home]
-    D[Réponses au formulaire 2] --> B[dashboard]
+    D(Réponses au formulaire 2) --> B[dashboard]
     D --> C[search]
     K[param] --> D
     BS[categories] --> D
@@ -194,7 +194,7 @@ flowchart TD
 3  
 ```mermaid
 flowchart TD
-    D[Réponses au formulaire 2] --> B[dashboard]
+    D(Réponses au formulaire 2) --> B[dashboard]
     D --> C[search]
     D --> F[dataALL]
     D --> K[param]

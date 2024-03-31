@@ -2,8 +2,7 @@
 1   EN COURS
 ```mermaid
 flowchart TD
-
-M[] --> D[Sytycd _18]
+    M[] --> D[Sytycd _18]
 M[] --> E[The good doctor _7]
 G[The voice kids mongolia _1] --> I[The voice kids ger _12]
 H[The voice senior it _4] --> K[Rupaul drag race uk vs the world _2]

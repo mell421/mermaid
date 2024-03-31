@@ -36,8 +36,51 @@ E[The good doctor _7] --> C[The voice finland _14]
 
 ```
 
-2  
+2  RETARD
 ```mermaid
+flowchart TD
+    G[God shave the queens _2] --> F[The challenge _14] 
+G[God shave the queens _2] --> F[The challenge _14] 
+Z[House of drag _2] --> D[Young sheldon _6] 
+P[Two pints of lager _4] --> D[Young sheldon _6] 
+O[Drag race ca vs world _1] --> L[Unhhhh _5] 
+N[Tbbt _11] --> L[Unhhhh _5] 
+N[Tbbt _11] --> L[Unhhhh _5] 
+Z[House of drag _2] --> S[Cheerleader generation _1] 
+Q[Bad education _1] --> R[Its a sin _1] 
+P[Two pints of lager _4] --> K[Zombie land saga _1] 
+Z[Drag den ph _2] --> D[Young sheldon _6] 
+Z[Drag den ph _2] --> I[Trivia quest _1] 
+K[Zombie land saga _1] --> L[Unhhhh _5] 
+D[Young sheldon _6] --> I[Trivia quest _1] 
+L[Unhhhh _5] --> A[Queer as folk _2] 
+B[Percy jackson _1] --> Q[Bad education _1] 
+A[Queer as folk _2] --> A[Queer as folk _2] 
+C[The amazing race au _7] --> E[Dead friend forever _1] 
+Z[Berlin _1] --> J[Drag race untucked ph _1] 
+Q[Bad education _1] --> I[Trivia quest _1] 
+N[Tbbt _11] --> E[Dead friend forever _1] 
+B[Percy jackson _1] --> D[Young sheldon _6] 
+Z[Drag den ph _2] --> G[God shave the queens _2] 
+B[Percy jackson _1] --> F[The challenge _14] 
+C[The amazing race au _7] --> D[Young sheldon _6] 
+C[The amazing race au _7] --> J[Drag race untucked ph _1] 
+Z[Wtfock _7] --> A[Queer as folk _2] 
+F[The challenge _14] --> P[Two pints of lager _4] 
+J[Drag race untucked ph _1] --> E[Dead friend forever _1] 
+N[Tbbt _11] --> K[Zombie land saga _1] 
+F[The challenge _14] --> F[The challenge _14] 
+Z[Stay still _1] --> O[Drag race ca vs world _1] 
+E[Dead friend forever _1] --> G[God shave the queens _2] 
+M[Drag race ca _4] --> B[Percy jackson _1] 
+Z[Berlin _1] --> C[The amazing race au _7] 
+I[Trivia quest _1] --> M[Drag race ca _4] 
+E[Dead friend forever _1] --> N[Tbbt _11] 
+A[Queer as folk _2] --> A[Queer as folk _2] 
+P[Two pints of lager _4] --> C[The amazing race au _7] 
+Q[Bad education _1] --> A[Queer as folk _2] 
+E[Dead friend forever _1] --> B[Percy jackson _1] 
+F[The challenge _14] --> H[Rpdruk _4] 
 ```
 
 3  

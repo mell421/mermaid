@@ -3,6 +3,43 @@
 
 ```mermaid
 flowchart TD
+    M[*] --> C[Sytycd _18] 
+M[*] --> D[The good doctor _7] 
+G[The voice kids mongolia _1] --> J[The voice kids ger _12] 
+H[The voice senior it _4] --> L[Rupaul drag race uk vs the world _2] 
+I[Rpdru _16] --> K[Rpdr _16] 
+M[*] --> C[Sytycd _18] 
+M[*] --> E[The voice kids poland _7] 
+M[*] --> D[The good doctor _7] 
+J[The voice kids ger _12] --> A[The voice kids sri lanka _1] 
+B[The voice finland _14] --> F[The voice generations lithu _2] 
+D[The good doctor _7] --> K[Rpdr _16] 
+C[Sytycd _18] --> G[The voice kids mongolia _1] 
+L[Rupaul drag race uk vs the world _2] --> F[The voice generations lithu _2] 
+I[Rpdru _16] --> B[The voice finland _14] 
+M[*] --> H[The voice senior it _4] 
+I[Rpdru _16] --> D[The good doctor _7] 
+K[Rpdr _16] --> A[The voice kids sri lanka _1] 
+M[*] --> C[Sytycd _18] 
+F[The voice generations lithu _2] --> B[The voice finland _14] 
+G[The voice kids mongolia _1] --> E[The voice kids poland _7] 
+M[*] --> J[The voice kids ger _12] 
+I[Rpdru _16] --> F[The voice generations lithu _2] 
+H[The voice senior it _4] --> D[The good doctor _7] 
+K[Rpdr _16] --> A[The voice kids sri lanka _1] 
+J[The voice kids ger _12] --> E[The voice kids poland _7] 
+M[*] --> C[Sytycd _18] 
+M[*] --> H[The voice senior it _4] 
+L[Rupaul drag race uk vs the world _2] --> G[The voice kids mongolia _1] 
+J[The voice kids ger _12] --> A[The voice kids sri lanka _1] 
+M[*] --> I[Rpdru _16] 
+D[The good doctor _7] --> B[The voice finland _14] 
+
+
+```
+
+```mermaid
+flowchart TD
     M[*] --> D[Sytycd _18]
 M[*] --> E[The good doctor _7]
 G[The voice kids mongolia _1] --> I[The voice kids ger _12]
